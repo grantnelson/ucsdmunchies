@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(to bottom, rgba(155,191,255,1) 0%,rgba(90,176,224,1) 100%);
+
+}
+img {
+  border: 0 none;
+  display: block;
+    margin: 20 auto;
+  height: auto;
+  max-width: 100%;
+  vertical-align: left;
+  text-align: center;
+  position: relative;
+}
+.navbar
+{
+   position: relative;
+   left: 100px;
+   height: 100px;
+   width: 100%;
+   min-width: 320px;
+   background: linear-gradient(to bottom, rgba(155,191,255,1) 0%,rgba(255,255,255,1) 100%);
+
+}
+article {
+    margin-left: 150px;
+    border-left: 1px solid black;
+    left: 150px;
+}
+nav {
+    float: left;
+    margin: 0;
+    left: 0;
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 100%) { 
+    .contact_social { display: none; }
+    .home_action { display: none; }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 100%) and (max-width: 100%) { 
+    .home_action { display: none; }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+}
+
